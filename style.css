@@ -1,0 +1,23 @@
+body{
+    background-image: url(book.jpg);
+    background-size: cover;
+    color: black;
+}
+
+.bookslist{
+    flex-basis: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    border-bottom: 10px;
+}
+.link a{
+    text-decoration: none;
+    color : black;
+}
+.card{
+    margin: 100px;
+}
